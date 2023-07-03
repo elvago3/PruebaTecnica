@@ -1,0 +1,19 @@
+.id {
+  color: lightgray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+}
+
+.item-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.container-card {
+  border: 1px solid lightgray;
+  text-align: center;
+}

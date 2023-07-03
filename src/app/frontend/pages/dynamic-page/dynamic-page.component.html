@@ -1,0 +1,24 @@
+<div>
+  <h1>Detalle</h1>
+  <div class="information-container container-fluid">
+    <h2>{{ dataShower.name }}</h2>
+    <p class="id">{{ dataShower.id }}</p>
+    <div class="grid">
+      <div class="item1">
+        <h3>{{ dataShower.fleet }}</h3>
+        <img [src]="dataShower.img" />
+      </div>
+
+      <div class="row align-items-center justify-content-center">
+        <h2>Sensores</h2>
+        <div class="item-2">
+          <div class="container-card" *ngFor="let sensor of sensors">
+            <h3>{{ sensor.name }}</h3>
+            <h4>{{ sensor.type }}</h4>
+            <p class="id">{{ sensor.id }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

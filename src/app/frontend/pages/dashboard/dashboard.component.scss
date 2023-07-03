@@ -1,0 +1,28 @@
+.text {
+  text-align: center;
+}
+
+.containerCard {
+  width: 500px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.img {
+  max-width:450px;
+}
+
+.id {
+  color: lightgray;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
